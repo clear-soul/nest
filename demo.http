@@ -1,0 +1,27 @@
+# # // REST Client VSCode的一个用于发送请求的插件
+POST http://localhost:3000/user/createUser?role=admin HTTP/1.1
+Content-Type: application/json
+Authorization: validToken
+
+{
+      "info": {
+        "uesrname": "胡桃111",
+        "age": -222
+      }
+}
+
+# POST http://localhost:3000/user/deleteData HTTP/1.1
+# Content-Type: application/json
+
+# {
+#       "id":888881
+# }
+
+# GET http://localhost:3000/user HTTP/1.1
+
+# GET http://localhost:3000/user/getUserById?id=64afa00e0d9fc689802f129d HTTP/1.1
+
+# GET http://localhost:3000/user/getUserByIdParams/64afa00e0d9fc689802f129d?role=admin HTTP/1.1
+# Content-Type: application/json
+# Authorization: validToken1111
+
